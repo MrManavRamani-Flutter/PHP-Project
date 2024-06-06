@@ -42,5 +42,42 @@ Resume Builder is a dynamic web application that allows users to create, manage,
 5. Push to the branch (`git push origin feature-branch`)
 6. Create a new Pull Request
 
-## License
-This project is licensed under the MIT License.
+## Project Structer
+
+```
+resume-builder/
+│
+├── admin/
+│   ├── index.php
+│   ├── manage_resumes.php
+│   └── manage_users.php
+│
+├── assets/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── scripts.js
+│   ├── bootstrap/
+│       └── ... (Bootstrap files)
+│
+├── includes/
+│   ├── db.php
+│   ├── header.php
+│   ├── footer.php
+│   ├── auth.php
+│   └── functions.php
+│
+├── users/
+│   ├── register.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── dashboard.php
+│   └── build_resume.php
+│
+├── index.php
+├── download.php
+├── save_resume.php
+└── documentation/
+    └── README.md
+
+```
