@@ -27,7 +27,7 @@ Resume Builder is a dynamic web application that allows users to create, manage,
 2. Access the application in your browser
 3. Register as a new user and create your resume
 
-## Database Structure
+## Database Structure  - `resume_builder`: database name
 - `users`: Stores user information
 - `resumes`: Stores resume metadata
 - `resume_sections`: Stores individual sections of a resume
